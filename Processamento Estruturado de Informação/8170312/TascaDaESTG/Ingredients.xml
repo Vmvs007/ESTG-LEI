@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ingredients>
+	<ingredient type="Topping">
+		<name>Tomato</name>
+		<category>Vegetal</category>
+		<unit>grams</unit>
+		<calories>18</calories>
+		<description>Fresh</description>
+	</ingredient>
+	<ingredient type="Topping">>
+		<name>Spinach</name>
+		<category>vegetal</category>
+		<unit>grams</unit>
+		<calories>23</calories>
+		<description>Fresh</description>
+	</ingredient>
+	<ingredient type="Topping">>
+		<name>Cheese</name>
+		<category>Dairy</category>
+		<unit>grams</unit>
+		<calories>300</calories>
+		<description>Cheddar</description>
+	</ingredient>
+	<ingredient type="Topping">>
+		<name>Tomato Sauce</name>
+		<category>Sauce</category>
+		<unit>milliliters</unit>
+		<calories>18</calories>
+		<description>Spicy</description>
+	</ingredient>
+	<ingredient type="Topping">
+		<name>Oregano</name>
+		<category>Herb</category>
+		<unit>grams</unit>
+		<calories>265</calories>
+		<description>Dried</description>
+	</ingredient>
+	<ingredient type="Topping">
+		<name>Chicken</name>
+		<category>Meat</category>
+		<unit>grams</unit>
+		<calories>239</calories>
+		<description>Roasted</description>
+	</ingredient>
+	<ingredient type="Topping">
+		<name>Onion Sauce</name>
+		<category>Sauce</category>
+		<unit>milliliters</unit>
+		<calories>92</calories>
+		<description>W/ Herbs</description>
+	</ingredient>
+	<ingredient type="Base">
+		<name>Pasta</name>
+		<category>Pasta</category>
+		<unit>grams</unit>
+		<calories>131</calories>
+		<description>Homemade</description>
+	</ingredient>
+</ingredients>

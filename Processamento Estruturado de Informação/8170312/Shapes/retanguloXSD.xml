@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="retangulo">
+	<xs:complexType mixed="true">
+		<xs:sequence>
+			<xs:element name="corFundo" type="xs:String"/>
+			<xs:element name="corLinha" type="xs:String"/>
+			<xs:element name="larguraLinha" type="xs:decimal"/>
+			<xs:element name="comprimento" type="xs:decimal"/>
+			<xs:element name="largura" type="xs:decimal"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

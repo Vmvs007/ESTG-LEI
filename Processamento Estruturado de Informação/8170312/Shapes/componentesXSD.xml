@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="componentes">
+	<xs:complexType mixed="true">
+		<xs:sequence>
+			<xs:element name="circulo"/>
+			<xs:element name="retangulo"/>
+			<xs:element name="elipse"/>
+			<xs:element name="linha"/>
+			<xs:element name="texto"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

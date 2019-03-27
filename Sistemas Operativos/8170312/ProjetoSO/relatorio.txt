@@ -1,0 +1,2 @@
+Piso: 2   Carga:0
+Piso: 4   Carga:0

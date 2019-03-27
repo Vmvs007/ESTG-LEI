@@ -1,0 +1,102 @@
+{"grafoSocial":
+	[
+		{
+			"id":001,
+			"nome":"Vitor Manuel Viana Santos",
+			"idade":19,
+			"email":"vmvs007@gmail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2017,
+						"formacao":"12 Ano (Ensino Secundario)"
+					},
+					{
+						"ano":2014,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2018,
+						"cargo":"Estudante",
+						"empresa":"Escola Superior de Tecnologia e Gestão",
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"MongoDB"
+					"Solr"
+					"SciLab"
+					"R"
+					"Netbeans"
+					"IntelIJ"
+					"GitHub"
+					"Photoshop"
+					"CorelDraw"
+				],
+			"contacts":
+				[
+					{"userId":002}
+
+				],
+			"mencoes":
+				[
+					{"userId":002}
+				],
+			"visualizacoes":1
+		},
+		{
+			"id":002,
+			"nome":"Edgar Manuel Viana Santos",
+			"idade":16,
+			"email":"edgar@gmail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2020,
+						"formacao":"12 Ano (Ensino Secundario)"
+					},
+					{
+						"ano":2017,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2021,
+						"cargo":"Estudante",
+						"empresa":"Escola Superior de Tecnologia e Gestão",
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"MongoDB"
+					"Solr"
+					"SciLab"
+					"R"
+					"Netbeans"
+					"IntelIJ"
+					"GitHub"
+					"Photoshop"
+					"CorelDraw"
+				],
+			"contacts":
+				[
+					{"userId":001},
+
+				],
+			"mencoes":
+				[
+					{"userId":001}
+				],
+			"visualizacoes":1
+		}
+	]
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="categories">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value ="Vegetal"/>
+			<xs:enumeration value ="Dairy"/>
+			<xs:enumeration value ="Sauce"/>
+			<xs:enumeration value ="Herb"/>
+			<xs:enumeration value ="Meat"/>
+			<xs:enumeration value ="Pasta"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="units">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value ="grams"/>
+			<xs:enumeration value ="milliliters"/>
+			<xs:enumeration value ="unit"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="types">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value ="Topping"/>
+			<xs:enumeration value ="Base"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="ingredient">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="sx:string"/>
+				<xs:element name="category" type="categories"/>
+				<xs:element name="unit" type="units" use="required"/>
+				<xs:element name="calories" type="xs:int">
+				<xs:element name="description" type="xs:string"/>
+				</xs:sequence>
+				<xs:attribute name="type" type="types" use="required"/>
+			</xs:complexType>
+		</xs:element>
+
+
+
+
+

@@ -1,0 +1,29 @@
+<pizza>
+		<name>Veggie-Pizza</name>
+		<base>tiny</base>
+		<topping>
+			<ingredient>
+				<name>spinach</name>
+				<category>vegetal</category>
+				<unit>grams</unit>
+				<calories>23</calories>
+			</ingredient>
+			<ingredient>
+				<name>cheese</name>
+				<category>dairy</category>
+				<unit>grams</unit>
+				<calories>300</calories>
+			</ingredient>
+			<ingredient>
+				<name>tomato sauce</name>
+				<category>sauce</category>
+				<unit>milliliters</unit>
+				<calories>18</calories>
+			</ingredient>
+		</topping>-->
+		<price>
+			<small>6.00</small>
+			<medium>8.00</medium>
+			<big>12.00</big>
+		</price>
+	</pizza>

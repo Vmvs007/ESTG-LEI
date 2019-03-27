@@ -1,0 +1,93 @@
+8170312
+Vitor Manuel Viana Santos
+MCII
+_________________________________________________________________________________________________________________
+
+2.3.
+
+function [L_k,P_x_bar] = Pol_Lagrange(x,y,x_bar)
+    // + * + * + * + * + * + * + * + * + * + * + * + * + * + *
+    // IN
+    //(x,y)     suporte de interpolacao - valores dados!!!!
+    // x_bar    ponto onde vou interpolar
+    // + * + * + * + * + * + * + * + * + * + * + * + * + * + *
+    //OUT
+    // L_k polinomios de Lagrange
+    // P_x_bar  estimativa para f no ponto x_bar usando o 
+    //          polinomio interpolador de Lagrange
+    // + * + * + * + * + * + * + * + * + * + * + * + * + * + *
+// Criado por: Eliana Costa e Silva elianacostasilva@gmail.com
+// Modificado em 17/10/2015
+// - +  - +  - +  - +  - +  - +  - +  - +  - +  - +  - +  - +  - +  - + -
+    n_x=length(0.6);
+    n_y=length(500);
+    if n_x ~=n_y then
+        disp('ATENCAO: x e y tem dimensoes diferentes.')
+        disp('Verifique o conjunto suporte que introduziu!')
+        return
+    end
+    x=matrix(x,1,n_x);
+    y=matrix(y,1,n_y);
+    for i1= 1:n_x
+        L_k(i1)=1;
+        for i2= 1:n_x
+            if i1~= i2 then
+                L_k(i1)= L_k(i1)*(x_bar-x(i2))/(x(i1)-x(i2));
+            end
+        end 
+    end
+    L_k = matrix(L_k,1,length(L_k));
+    P_x_bar = sum(L_k.*y);
+endfunction
+
+__________________________________________________________________________________________________________________
+
+2.5.
+
+//introduzir os dados
+x=[0.2680 0.5180 1.000];
+y=[405.0 633.0 1030.0]
+
+//representar pontos
+plot2d(x',y',[-3],"011"," ",[0,0,7,5]);
+
+//estimar as derivadas no suporte
+d = splin(x,y); 
+
+//definir o intervalo onde se vai estimar
+xp=0.139:0.31:0.518
+
+//definir a spline
+[yp, yp1, yp2, yp3] = interp(xp, x, y, d); 
+
+//fazer o gráfico dos pontos a estimar e dos valores estimados
+plot2d(xp, yp)
+
+//calcular a aproximação que está na 2º posição
+yp(2)
+
+
+
+_______________________________________________________________________________________________________________________
+
+
+2.6.
+
+function y=modelo(x, par)
+   y  = par(1).*x.^2+ par(2).*x+par(3);
+endfunction
+function e=myfun(par,x, ym, wm)
+   e = wm.*(modelo(x, par) - ym )
+endfunction
+wm = ones(length(x_i),1);
+par_0=[1 1 0]';
+[f,par, gopt] = leastsq(list(myfun,x_i',f_i',wm),par_0) // conf. com as sol!
+plot(x,modelo(x, par),'g','thickness',3)
+
+parab=par(1)*x_i.^2+par(2)*x_i+par(3)
+E_2= sum((f_i-parab).^2)
+
+
+_______________________________________________________________________________________________________________________
+
+

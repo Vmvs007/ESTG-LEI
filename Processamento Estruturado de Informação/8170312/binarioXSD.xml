@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="binario">
+		<xs:complexType>
+			<xs:choice minOccur=0 maxOccur=unbounded>
+				<xs:element name="um" type="xs:unsignedByte" fixed="1"/>
+				<xs:element name="zero" type="xs:unsignedByte" fixed="0"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

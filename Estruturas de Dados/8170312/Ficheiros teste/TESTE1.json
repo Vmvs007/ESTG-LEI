@@ -1,0 +1,714 @@
+{
+	"grafoSocial": [
+		{
+			"skills": [
+				"java",
+				"swift",
+				"ios"
+			],
+			"idade": 26,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				},
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				}
+			],
+			"visualizacoes": 10,
+			"nome": "USER1",
+			"id": 1,
+			"cargosProfissionais": [
+				{
+					"ano": 2010,
+					"cargo": "estagiario",
+					"empresa": "microsoft"
+				},
+				{
+					"ano": 2013,
+					"cargo": "juniorDeveloper",
+					"empresa": "microsoft"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 2
+				},
+				{
+					"userid": 3
+				},
+				{
+					"userid": 4
+				}
+			],
+			"email": "user1@teste.com",
+			"contacts": [
+				{
+					"userid": 2
+				},
+				{
+					"userid": 3
+				},
+				{
+					"userid": 4
+				}
+			]
+		},
+		{
+			"skills": [
+				"c#",
+				"c++",
+				"ios"
+			],
+			"idade": 26,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				},
+				{
+					"ano": 2010,
+					"formacao": "MEI"
+				}
+			],
+			"visualizacoes": 11,
+			"nome": "USER2",
+			"id": 2,
+			"cargosProfissionais": [
+				{
+					"ano": 2010,
+					"cargo": "estagiario",
+					"empresa": "microsoft"
+				},
+				{
+					"ano": 2013,
+					"cargo": "juniorDeveloper",
+					"empresa": "microsoft"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 1
+				}
+			],
+			"email": "user2@teste.com",
+			"contacts": [
+				{
+					"userid": 1
+				}
+			]
+		},
+		{
+			"skills": [
+				"c",
+				"swift",
+				"android"
+			],
+			"idade": 24,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				}
+			],
+			"visualizacoes": 1,
+			"nome": "USER3",
+			"id": 3,
+			"cargosProfissionais": [
+				{
+					"ano": 2011,
+					"cargo": "estagiario",
+					"empresa": "ibm"
+				},
+				{
+					"ano": 2013,
+					"cargo": "developer",
+					"empresa": "ibm"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 1
+				},
+				{
+					"userid": 5
+				}
+			],
+			"email": "user3@teste.com",
+			"contacts": [
+				{
+					"userid": 1
+				},
+				{
+					"userid": 5
+				}
+			]
+		},
+		{
+			"skills": [
+				"java",
+				"android"
+			],
+			"idade": 30,
+			"formacaoAcademica": [
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				},
+				{
+					"ano": 2010,
+					"formacao": "MEI"
+				}
+			],
+			"visualizacoes": 5,
+			"nome": "USER4",
+			"id": 4,
+			"cargosProfissionais": [
+				{
+					"ano": 2012,
+					"cargo": "juniorDeveloper",
+					"empresa": "microsoft"
+				},
+				{
+					"ano": 2013,
+					"cargo": "developer",
+					"empresa": "ibm"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 1
+				},
+				{
+					"userid": 5
+				}
+			],
+			"email": "user4@teste.com",
+			"contacts": [
+				{
+					"userid": 1
+				},
+				{
+					"userid": 5
+				}
+			]
+		},
+		{
+			"skills": [
+				"java",
+				"swift",
+				"ios",
+				"android",
+				"c++",
+				"c#"
+			],
+			"idade": 29,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				}
+			],
+			"visualizacoes": 100,
+			"nome": "USER5",
+			"id": 5,
+			"cargosProfissionais": [
+				{
+					"ano": 2011,
+					"cargo": "estagiario",
+					"empresa": "ibm"
+				},
+				{
+					"ano": 2013,
+					"cargo": "developer",
+					"empresa": "ibm"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 3
+				},
+				{
+					"userid": 4
+				},
+				{
+					"userid": 7
+				}
+			],
+			"email": "user5@teste.com",
+			"contacts": [
+				{
+					"userid": 3
+				},
+				{
+					"userid": 4
+				},
+				{
+					"userid": 7
+				}
+			]
+		},
+		{
+			"skills": [
+				"R",
+				"go",
+				"ios"
+			],
+			"idade": 50,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				},
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				},
+				{
+					"ano": 2010,
+					"formacao": "MEI"
+				}
+			],
+			"visualizacoes": 0,
+			"nome": "USER6",
+			"id": 6,
+			"cargosProfissionais": [
+				{
+					"ano": 2010,
+					"cargo": "estagiario",
+					"empresa": "microsoft"
+				},
+				{
+					"ano": 2011,
+					"cargo": "estagiario",
+					"empresa": "ibm"
+				},
+				{
+					"ano": 2013,
+					"cargo": "developer",
+					"empresa": "ibm"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 7
+				}
+			],
+			"email": "user6@teste.com",
+			"contacts": [
+				{
+					"userid": 7
+				}
+			]
+		},
+		{
+			"skills": [
+				"python",
+				"go",
+				"ios"
+			],
+			"idade": 31,
+			"formacaoAcademica": [
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				}
+			],
+			"visualizacoes": 50,
+			"nome": "USER7",
+			"id": 7,
+			"cargosProfissionais": [
+				{
+					"ano": 2011,
+					"cargo": "estagiario",
+					"empresa": "ibm"
+				},
+				{
+					"ano": 2013,
+					"cargo": "developer",
+					"empresa": "ibm"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 5
+				},
+				{
+					"userid": 6
+				}
+			],
+			"email": "user7@teste.com",
+			"contacts": [
+				{
+					"userid": 5
+				},
+				{
+					"userid": 6
+				}
+			]
+		},
+		{
+			"skills": [
+				"go",
+				"python",
+				"c"
+			],
+			"idade": 26,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				},
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				}
+			],
+			"visualizacoes": 990,
+			"nome": "USER8",
+			"id": 8,
+			"cargosProfissionais": [
+				{
+					"ano": 2010,
+					"cargo": "estagiario",
+					"empresa": "microsoft"
+				},
+				{
+					"ano": 2012,
+					"cargo": "juniorDeveloper",
+					"empresa": "apple"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 10
+				},
+				{
+					"userid": 11
+				}
+			],
+			"email": "user8@teste.com",
+			"contacts": [
+				{
+					"userid": 10
+				},
+				{
+					"userid": 11
+				}
+			]
+		},
+		{
+			"skills": [],
+			"idade": 26,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				}
+			],
+			"visualizacoes": 64,
+			"nome": "USER9",
+			"id": 9,
+			"cargosProfissionais": [
+				{
+					"ano": 2013,
+					"cargo": "developer",
+					"empresa": "apple"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 10
+				}
+			],
+			"email": "user9@teste.com",
+			"contacts": [
+				{
+					"userid": 10
+				}
+			]
+		},
+		{
+			"skills": [
+				"java",
+				"swift",
+				"ios",
+				"python",
+				"R",
+				"go",
+				"c++",
+				"c#"
+			],
+			"idade": 70,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				},
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				},
+				{
+					"ano": 2010,
+					"formacao": "MEI"
+				}
+			],
+			"visualizacoes": 10000,
+			"nome": "USER10",
+			"id": 10,
+			"cargosProfissionais": [
+				{
+					"ano": 2010,
+					"cargo": "estagiario",
+					"empresa": "apple"
+				},
+				{
+					"ano": 2012,
+					"cargo": "juniorDeveloper",
+					"empresa": "apple"
+				},
+				{
+					"ano": 2013,
+					"cargo": "developer",
+					"empresa": "apple"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 9
+				},
+				{
+					"userid": 8
+				},
+				{
+					"userid": 11
+				}
+			],
+			"email": "user10@teste.com",
+			"contacts": [
+				{
+					"userid": 9
+				},
+				{
+					"userid": 8
+				},
+				{
+					"userid": 11
+				}
+			]
+		},
+		{
+			"skills": [
+				"java",
+				"swift",
+				"ios"
+			],
+			"idade": 35,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				},
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				}
+			],
+			"visualizacoes": 70,
+			"nome": "USER11",
+			"id": 11,
+			"cargosProfissionais": [
+				{
+					"ano": 2010,
+					"cargo": "estagiario",
+					"empresa": "microsoft"
+				},
+				{
+					"ano": 2013,
+					"cargo": "juniorDeveloper",
+					"empresa": "microsoft"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 8
+				},
+				{
+					"userid": 10
+				},
+				{
+					"userid": 14
+				}
+			],
+			"email": "user11@teste.com",
+			"contacts": [
+				{
+					"userid": 8
+				},
+				{
+					"userid": 10
+				},
+				{
+					"userid": 14
+				}
+			]
+		},
+		{
+			"skills": [
+				"c",
+				"c++",
+				"c#"
+			],
+			"idade": 26,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				},
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				}
+			],
+			"visualizacoes": 3,
+			"nome": "USER12",
+			"id": 12,
+			"cargosProfissionais": [
+				{
+					"ano": 2010,
+					"cargo": "estagiario",
+					"empresa": "microsoft"
+				},
+				{
+					"ano": 2013,
+					"cargo": "juniorDeveloper",
+					"empresa": "microsoft"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 15
+				}
+			],
+			"email": "user12@teste.com",
+			"contacts": [
+				{
+					"userid": 15
+				}
+			]
+		},
+		{
+			"skills": [
+				"java",
+				"swift",
+				"ios"
+			],
+			"idade": 26,
+			"formacaoAcademica": [],
+			"visualizacoes": 10,
+			"nome": "USER13",
+			"id": 13,
+			"cargosProfissionais": [],
+			"mencoes": [],
+			"email": "user13@teste.com",
+			"contacts": []
+		},
+		{
+			"skills": [
+				"java"
+			],
+			"idade": 26,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				},
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				}
+			],
+			"visualizacoes": 14,
+			"nome": "USER14",
+			"id": 14,
+			"cargosProfissionais": [
+				{
+					"ano": 2010,
+					"cargo": "estagiario",
+					"empresa": "apple"
+				},
+				{
+					"ano": 2013,
+					"cargo": "juniorDeveloper",
+					"empresa": "microsoft"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 11
+				}
+			],
+			"email": "user14@teste.com",
+			"contacts": [
+				{
+					"userid": 11
+				}
+			]
+		},
+		{
+			"skills": [
+				"ios"
+			],
+			"idade": 26,
+			"formacaoAcademica": [
+				{
+					"ano": 2002,
+					"formacao": "12"
+				},
+				{
+					"ano": 2007,
+					"formacao": "LEI"
+				},
+				{
+					"ano": 2010,
+					"formacao": "MEI"
+				}
+			],
+			"visualizacoes": 150,
+			"nome": "USER15",
+			"id": 15,
+			"cargosProfissionais": [
+				{
+					"ano": 2012,
+					"cargo": "juniorDeveloper",
+					"empresa": "apple"
+				},
+				{
+					"ano": 2011,
+					"cargo": "estagiario",
+					"empresa": "apple"
+				}
+			],
+			"mencoes": [
+				{
+					"userid": 12
+				},
+				{
+					"userid": 14
+				}
+			],
+			"email": "user15@teste.com",
+			"contacts": [
+				{
+					"userid": 12
+				},
+				{
+					"userid": 14
+				}
+			]
+		}
+	]
+}

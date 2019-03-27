@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="ingredientXSD.xsd"/>
+	<xs:element name="pizza">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element name="name" type="xs:string"/>
+				<xs:element name="base" type="xs:string"/>
+				<xs:element name="topping"/>
+				<xs:element name="price">
+					<xs:complexType>
+						<xs:sequence>						
+							<xs:element name="small">
+								<xs:simpleType>
+									<xs:restriction base="xs:decimal">
+										<xs:fractionDigits value="2"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="medium" >
+								<xs:simpleType>
+									<xs:restriction base="xs:decimal">
+										<xs:fractionDigits value="2"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="big">
+								<xs:simpleType>
+									<xs:restriction base="xs:decimal">
+										<xs:fractionDigits value="2"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>		
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

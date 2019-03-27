@@ -1,0 +1,996 @@
+{"grafoSocial":
+	[
+		{
+			"id":001,
+			"nome":"Vitor Manuel Viana Santos",
+			"idade":19,
+			"email":"vmvs007@gmail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2017,
+						"formacao":"12 Ano (Ensino Secundario)"
+					},
+					{
+						"ano":2014,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2020,
+						"cargo":"Front Office Developer",
+						"empresa":"DevPT"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"MongoDB"
+					"Solr"
+					"SciLab"
+					"R"
+					"Netbeans"
+					"IntelIJ"
+					"GitHub"
+					"Photoshop"
+					"CorelDraw"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+					{"userId":011},
+					{"userId":012},
+					{"userId":013},
+					{"userId":014},
+					{"userId":015},
+
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":1
+		},
+		{
+			"id":002,
+			"nome":"Artur Albertino Santos",
+			"idade":39,
+			"email":"pro-artur@fakeMail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2002,
+						"formacao":"Mestrado em Engenharia Informatica",
+					},
+					{
+						"ano":2000,
+						"formacao":"Licenciatura em Engenharia Informatica (Ensino Superior)",
+					},
+					{
+						"ano":1997,
+						"formacao":"12 Ano (Ensino Secundario)",
+					},
+					{
+						"ano":1994,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2005,
+						"cargo":"Chefe de Equipa de Back Office",
+						"empresa":"Programadores de Portugal",
+					},
+					{
+						"ano":1999,
+						"cargo":"Back Office Developer",
+						"empresa":"Programadores de Portugal",
+					},
+					{
+						"ano":1998,
+						"cargo":"Estagiario",
+						"empresa":"Programadores de Portugal"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"C++"
+					"Java"
+					"JavaScript"
+					"Python"
+					"PHP"
+					"HTML5"
+					"IntelIJ"
+					"Eclipse"
+					"Netbeans"
+					"GitHub"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":2
+		},
+		{
+			"id":003,
+			"nome":"Arminho Pinto da Costa",
+			"idade":25,
+			"email":"arminho@fakeMail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2016,
+						"formacao":"Licenciatura em Engenharia Informatica (Ensino Superior)",
+					},
+					{
+						"ano":2013,
+						"formacao":"12 Ano (Ensino Secundario)",
+					},
+					{
+						"ano":2010,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2018,
+						"cargo":"Front Office Developer",
+						"empresa":"DevPT"
+					},
+					{
+						"ano":2017,
+						"cargo":"Estagiario",
+						"empresa":"DevPT"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"C++"
+					"Java"
+					"Netbeans"
+					"GitHub"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":1
+		},
+		{
+			"id":004,
+			"nome":"Nicole Roberta de Sousa",
+			"idade":21,
+			"email":"nicole1997@fakeMail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2019,
+						"formacao":"Mestrado em Engenharia Informatica",
+					},
+					{
+						"ano":2017,
+						"formacao":"Licenciatura em Engenharia Informatica (Ensino Superior)",
+					},
+					{
+						"ano":2015,
+						"formacao":"12 Ano (Ensino Secundario)",
+					},
+					{
+						"ano":2012,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2020,
+						"cargo":"Front Office Developer",
+						"empresa":"DevPT"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"C++"
+					"Java"
+					"JavaScript"
+					"Python"
+					"PHP"
+					"HTML5"
+					"IntelIJ"
+					"Eclipse"
+					"Netbeans"
+					"GitHub"
+					"MongoDB"
+					"Solr"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+					{"userId":011},
+					{"userId":012},
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+					{"userId":004}
+					{"userId":005}
+				],
+			"visualizacoes":4
+		},
+		{
+			"id":005,
+			"nome":"Diamantino Manuel da Silva",
+			"idade":45,
+			"email":"diamond@fakeMail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":1999,
+						"formacao":"Doutoramento em Engenharia Informatica",
+					},
+					{
+						"ano":1996,
+						"formacao":"Mestrado em Engenharia Informatica",
+					},
+					{
+						"ano":1994,
+						"formacao":"Licenciatura em Engenharia Informatica (Ensino Superior)",
+					},
+					{
+						"ano":1991,
+						"formacao":"12 Ano (Ensino Secundario)",
+					},
+					{
+						"ano":1988,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2010,
+						"cargo":"Professor Adjunto",
+						"empresa":"Escola Superior de Tecnologia e Gestao"
+					},
+					{
+						"ano":2005,
+						"cargo":"Professor Adjunto Convidado",
+						"empresa":"Escola Superior de Tecnologia e Gestao"
+					},
+					{
+						"ano":2001,
+						"cargo":"Assistente Convidado",
+						"empresa":"Escola Superior de Tecnologia e Gestao"
+					},
+					{
+						"ano":2000,
+						"cargo":"Estagiario",
+						"empresa":"Escola Superior de Tecnologia e Gestao"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"C++"
+					"CSharp"
+					"Java"
+					"JavaScript"
+					"Python"
+					"PHP"
+					"HTML5"
+					"CSS"
+					"Netbeans"
+					"IntelIJ"
+					"Eclipse"
+					"GitHub"
+					"MongoDB"
+					"Solr"
+					"Jenkins"
+					"YouTrack"
+					"Upsource"
+					"SonarQube"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+					{"userId":004}
+					{"userId":005}
+					{"userId":006}
+					{"userId":007}
+					{"userId":008}
+					{"userId":009}
+				],
+			"visualizacoes":10
+		},
+		{
+			"id":006,
+			"nome":"Edgar Manuel Viana Santos",
+			"idade":19,
+			"email":"edgar2002@fakeMail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2020,
+						"formacao":"Licenciatura em Engenharia Informatica (Ensino Superior)",
+					},
+					{
+						"ano":2017,
+						"formacao":"12 Ano (Ensino Secundario)",
+					},
+					{
+						"ano":2014,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2021,
+						"cargo":"Front Office Developer",
+						"empresa":"Programadores Anonymous"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"JavaScript"
+					"PHP"
+					"HTML5"
+					"IntelIJ"
+					"Netbeans"
+					"GitHub"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":4
+		},
+		{
+			"id":007,
+			"nome":"Sheila Torres Monteiro",
+			"idade":26,
+			"email":"sheila@fakeMail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2016,
+						"formacao":"Licenciatura em Tecnologias da Madeira (Ensino Superior)",
+					},
+					{
+						"ano":2013,
+						"formacao":"12 Ano (Ensino Secundario)",
+					},
+					{
+						"ano":2010,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2018,
+						"cargo":"Carpinteira Junior",
+						"empresa":"Carpintaria Mesquita & Filhos"
+					},
+					{
+						"ano":2017,
+						"cargo":"Estagiario",
+						"empresa":"Carpintaria Mesquita & Filhos"
+					}
+				],
+			"skills":
+				[
+					{
+						"Madeiras de Carvalho"
+						"Madeiras de Pinheiro"
+						"Madeiras de Eucalipto"
+						"Madeiras de Sobreiro"
+						"Serra Eletrica"
+						"Secador Industrial de Madeiras"
+					}
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+				],
+			"mencoes":
+				[
+					{"userId":002}
+				],
+			"visualizacoes":1
+		},
+		{
+			"id":008,
+			"nome":"Teresa da Costa Silva",
+			"idade":55,
+			"email":"advogada_teresa@fakeMail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":1986,
+						"formacao":"Mestrado em Direito (Ensino Superior)",
+					},
+					{
+						"ano":1981,
+						"formacao":"12 Ano (Ensino Secundario)",
+					},
+					{
+						"ano":1978,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":1995,
+						"cargo":"Advogada de Defesa",
+						"empresa":"Escritorios Advocacia Teresa Silva"
+					},
+					{
+						"ano":1989,
+						"cargo":"Advogada",
+						"empresa":"Conservatoria do Porto"
+					},
+					{
+						"ano":1987,
+						"cargo":"Estagiaria",
+						"empresa":"Consultadoria do Porto"
+					}
+				],
+			"skills":
+				[
+					"Codigo Civil"
+					"Processo Civil"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+					{"userId":011},
+					{"userId":012},
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+					{"userId":004}
+					{"userId":005}
+				],
+			"visualizacoes":4
+		},
+		{
+			"id":009,
+			"nome":"Quentin Tarantino",
+			"idade":55,
+			"email":"pulp.fiction@fakeMail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":1984,
+						"formacao":"Licenciatura em Realizacao e Direcao de Cinema (Ensino Superior)",
+					},
+					{
+						"ano":1980,
+						"formacao":"12 Ano (Ensino Secundario)",
+					},
+					{
+						"ano":1977,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2015,
+						"cargo":"Diretor",
+						"empresa":"Shiny Penny"
+					},
+					{
+						"ano":2012,
+						"cargo":"Diretor",
+						"empresa":"Columbia Pictures"
+					},
+					{
+						"ano":2003,
+						"cargo":"Diretor",
+						"empresa":"MiraMax"
+					},
+					{
+						"ano":1994,
+						"cargo":"Diretor",
+						"empresa":"A Band Apart Studios"
+					},
+					{
+						"ano":1985,
+						"cargo":"Estagiario",
+						"empresa":"20th Century Fox"
+					}
+				],
+			"skills":
+				[
+					"Ator"
+					"Realizador"
+					"Diretor"
+					"Co-Diretor"
+					"Escritor"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+					{"userId":004}
+					{"userId":005}
+					{"userId":006}
+					{"userId":007}
+					{"userId":008}
+					{"userId":009}
+					{"userId":010}
+					{"userId":011}
+					{"userId":012}
+					{"userId":013}
+				],
+			"visualizacoes":15
+		},
+		{
+			"id":010,
+			"nome":"Vitor Manuel Viana Santos",
+			"idade":19,
+			"email":"vmvs007@gmail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2017,
+						"formacao":"12 Ano (Ensino Secundario)"
+					},
+					{
+						"ano":2014,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2020,
+						"cargo":"Front Office Developer",
+						"empresa":"DevPT"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"MongoDB"
+					"Solr"
+					"SciLab"
+					"R"
+					"Netbeans"
+					"IntelIJ"
+					"GitHub"
+					"Photoshop"
+					"CorelDraw"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+					{"userId":011},
+					{"userId":012},
+					{"userId":013},
+					{"userId":014},
+					{"userId":015},
+
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":1
+		},
+		{
+			"id":011,
+			"nome":"Vitor Manuel Viana Santos",
+			"idade":19,
+			"email":"vmvs007@gmail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2017,
+						"formacao":"12 Ano (Ensino Secundario)"
+					},
+					{
+						"ano":2014,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2020,
+						"cargo":"Front Office Developer",
+						"empresa":"DevPT"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"MongoDB"
+					"Solr"
+					"SciLab"
+					"R"
+					"Netbeans"
+					"IntelIJ"
+					"GitHub"
+					"Photoshop"
+					"CorelDraw"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+					{"userId":011},
+					{"userId":012},
+					{"userId":013},
+					{"userId":014},
+					{"userId":015},
+
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":1
+		},
+		{
+			"id":012,
+			"nome":"Vitor Manuel Viana Santos",
+			"idade":19,
+			"email":"vmvs007@gmail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2017,
+						"formacao":"12 Ano (Ensino Secundario)"
+					},
+					{
+						"ano":2014,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2020,
+						"cargo":"Front Office Developer",
+						"empresa":"DevPT"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"MongoDB"
+					"Solr"
+					"SciLab"
+					"R"
+					"Netbeans"
+					"IntelIJ"
+					"GitHub"
+					"Photoshop"
+					"CorelDraw"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+					{"userId":011},
+					{"userId":012},
+					{"userId":013},
+					{"userId":014},
+					{"userId":015},
+
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":1
+		},
+		{
+			"id":013,
+			"nome":"Vitor Manuel Viana Santos",
+			"idade":19,
+			"email":"vmvs007@gmail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2017,
+						"formacao":"12 Ano (Ensino Secundario)"
+					},
+					{
+						"ano":2014,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2020,
+						"cargo":"Front Office Developer",
+						"empresa":"DevPT"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"MongoDB"
+					"Solr"
+					"SciLab"
+					"R"
+					"Netbeans"
+					"IntelIJ"
+					"GitHub"
+					"Photoshop"
+					"CorelDraw"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+					{"userId":011},
+					{"userId":012},
+					{"userId":013},
+					{"userId":014},
+					{"userId":015},
+
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":1
+		},
+		{
+			"id":014,
+			"nome":"Vitor Manuel Viana Santos",
+			"idade":19,
+			"email":"vmvs007@gmail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2017,
+						"formacao":"12 Ano (Ensino Secundario)"
+					},
+					{
+						"ano":2014,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2020,
+						"cargo":"Front Office Developer",
+						"empresa":"DevPT"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"MongoDB"
+					"Solr"
+					"SciLab"
+					"R"
+					"Netbeans"
+					"IntelIJ"
+					"GitHub"
+					"Photoshop"
+					"CorelDraw"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+					{"userId":011},
+					{"userId":012},
+					{"userId":013},
+					{"userId":014},
+					{"userId":015},
+
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":1
+		},
+		{
+			"id":015,
+			"nome":"Vitor Manuel Viana Santos",
+			"idade":19,
+			"email":"vmvs007@gmail.com",
+			"formacaoAcademica":
+				[
+					{
+						"ano":2017,
+						"formacao":"12 Ano (Ensino Secundario)"
+					},
+					{
+						"ano":2014,
+						"formacao":"9 Ano (Ensino Basico)"
+					}
+				],
+			"cargosProfissionais":
+				[
+					{
+						"ano":2020,
+						"cargo":"Front Office Developer",
+						"empresa":"DevPT"
+					}
+				],
+			"skills":
+				[
+					"C"
+					"Java"
+					"MongoDB"
+					"Solr"
+					"SciLab"
+					"R"
+					"Netbeans"
+					"IntelIJ"
+					"GitHub"
+					"Photoshop"
+					"CorelDraw"
+				],
+			"contacts":
+				[
+					{"userId":002},
+					{"userId":003},
+					{"userId":004},
+					{"userId":005},
+					{"userId":006},
+					{"userId":007},
+					{"userId":008},
+					{"userId":009},
+					{"userId":010},
+					{"userId":011},
+					{"userId":012},
+					{"userId":013},
+					{"userId":014},
+					{"userId":015},
+
+				],
+			"mencoes":
+				[
+					{"userId":002}
+					{"userId":003}
+				],
+			"visualizacoes":1
+		},
+	]
+}

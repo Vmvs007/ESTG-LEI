@@ -1,0 +1,63 @@
+Testar Normalidade
+	-Teste de shapiro shapiro.test(empregados$sal_inic_euros)
+        Se o p-value for menor que o nivel de confiança rejeita a normalidade, mas se tiver muitas observaçoes é aproximadamente normal
+Testar Hipotese de ser maior que algo
+  -Testar primeiro normalidade
+  -Depois de Saber a normalidade se for normal t.test, se não for wilcox 
+  wilcox.test(empregados$sal_inic,aternative=c("greater"),mu=255,conf.level = 0,95)
+  t.test(empregados$sal_inic_euros,aternative="greater",mu=255,conf.level = 0,95)
+
+Testar media diferente mediante duas hipoteses
+    1ªcalcular var_test: var.test(sal_inic_x, sal_inic_y)
+    Ho: var_x=var_y
+    H1: var_x?var_y
+    o p-value = 1.214e-09<0,05 pelo que se
+    rejeita Ho, desiguldade de variançias
+    2º testa-se a igualdade de médias,
+    Ho: ??_x= ?? _y
+    H1: ??_ x? ?? _y
+    Usando um teste t par igualdade das médias bilateral:
+    t.test(sal_inic_x, sal_inic_y, alternative ="two.sided", paired=F, var.equal=F)
+    obtém-se o p-value = 9.099e-05<0,05, rejeita-se Ho, pelo que deve considerar-se que as médias não
+    diferem significativamente
+
+//2.3 Ano Passado
+sal_inic_12=empregados_1_$sal_inic[empregados_1_$educ==12]
+sal_inic_17=empregados_1_$sal_inic[empregados_1_$educ==17]
+var.test(sal_inic_12,sal_inic_17)
+
+//resolucao incompleta do slide 15 MMQ
+
+y=[4.5 5.10 5.79 6.53 7.45 8.46];
+ 
+x=[0 1 1.25 1.50 1.75 2];
+ 
+plot2d(x',y',[-3],"011"," ",[-1,4,3,9]);
+ 
+
+ aux_den = length(x)*sum( x.^2 ) - (sum(x))^2;
+ a= (length(x)* sum( x.*log(y) ) - sum(log(y))*sum(x) )/aux_den
+ 
+ 
+ B = (sum(x.^2)*sum(log(y)) - sum(x.*log(y))*sum(x))/aux_den
+ 
+ b= exp(B)
+ 
+ xplot=min(x):0.01:max(x);
+ mod_exp=b*exp(a*xplot);
+ plot(xplot,mod_exp,'r')
+ 
+erro_exp = sum( (y-b*exp(a*x))^2)
+ 
+[a,B]=reglin(x,log(y))
+b=exp(B)
+
+xplot=x(1):0.01:x($)
+xplot=min(x):0.01:max(x);
+modelo=b*exp(a*xplot);
+plot(xplot,modelo)
+
+
+ //y=bx^a 
+[a,B]=reglin(log(x),log(y))
+b=exp(B)

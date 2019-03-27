@@ -1,0 +1,44 @@
+ 
+--> exec('C:\Users\vmvs0\Documents\MCII\Pol_Lagrange.sci',-1)
+
+--> load('C:\Users\vmvs0\Documents\MCII\Pol_Lagrange.sci')
+
+load: C:\Users\vmvs0\Documents\MCII\Pol_Lagrange.sci is not a valid lib file.
+
+--> exec 483,994
+
+exec: Cannot open file 483.
+
+--> x=483
+ x  = 
+
+   483.
+
+
+--> y=994
+ y  = 
+
+   994.
+
+
+--> exec('C:\Users\vmvs0\Documents\MCII\Pol_Lagrange.sci',-1)
+
+--> exec('C:\Users\vmvs0\Documents\MCII\slide_20-spline_cubica.sce',-1)
+
+--> x[312 483 757];
+x[312 483 757];
+ ^^
+Error: syntax error, unexpected [, expecting end of file
+
+--> x=[312 483 757];
+
+--> y[615 994 1610];
+y[615 994 1610];
+ ^^
+Error: syntax error, unexpected [, expecting end of file
+
+--> y=[615 994 1610];
+
+--> exec('C:\Users\vmvs0\Documents\MCII\slide_20-spline_cubica.sce',-1)
+
+--> exec('C:\Users\vmvs0\Documents\MCII\slide_20-spline_cubica.sce',-1)

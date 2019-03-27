@@ -1,0 +1,8 @@
+<ingredient type="Topping">
+	<name>Cheese</name>
+	<category>Dairy</category>
+	<unit>grams</unit>
+	<calories>23</calories>
+	<description>Cheddar</description>
+</ingredient>
+

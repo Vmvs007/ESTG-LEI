@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="linhss">
+	<xs:complexType mixed="true">
+		<xs:sequence>
+			<xs:element name="x1" type="xs:decimal"/>
+			<xs:element name="y1" type="xs:decimal"/>
+			<xs:element name="x2" type="xs:deciaml"/>
+			<xs:element name="y2" type="xs:decimal"/>
+			<xs:element name="comprimento" type="xs:decimal"/>
+			<xs:element name="corLinha" type="xs:String"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

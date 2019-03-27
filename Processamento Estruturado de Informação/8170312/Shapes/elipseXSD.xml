@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="elipse">
+	<xs:complexType mixed="true">
+		<xs:sequence>
+			<xs:element name="corFundo" type="xs:String"/>
+			<xs:element name="corLinha" type="xs:String"/>
+			<xs:element name="larguraLinha" type="xs:decimal"/>
+			<xs:element name="raioVertical" type="xs:decimal"/>
+			<xs:element name="raioHorizontal" type="xs:decimal"/>
+			<xs:element name="coordenadaXX" type="xs:decimal"/>
+			<xs:element name="corrdenadaYY" type="xs:decimal"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>
