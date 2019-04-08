@@ -1,0 +1,27 @@
+ body {
+            background-color: #EEEEEE;
+        }
+
+        .exercise {
+            background-color: #FFF;
+            padding: 20px 20px 10px 20px;
+            margin-top: 30px;
+        }
+
+        .exercise h1 {
+            margin: 0;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-control {
+            border-radius: 0;
+        }
+
+        #paw-results-row {
+            display: none;
+        }
+
+        .paw-form-element {
+            margin-top: 10px;
+        }
