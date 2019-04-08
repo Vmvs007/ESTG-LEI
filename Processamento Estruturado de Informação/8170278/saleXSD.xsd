@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.BikeOnTrack.pt/sale"
+	targetNamespace="http://www.BikeOnTrack.pt/sale"
+	xmlns:cr ="http://www.BikeOnTrack.pt/CurrencyRate"
+	xmlns:st ="http://www.BikeOnTrack.pt/Store"
+	xmlns:sl ="http://www.BikeOnTrack.pt/saleLine"
+	xmlns:cu ="http://www.BikeOnTrack.pt/Customer"
+	elementFormDefault="qualified">
+
+	
+	<xs:import schemaLocation="currencyRateXSD.xsd" namespace="http://www.BikeOnTrack.pt/CurrencyRate"/>
+	<xs:import schemaLocation="storeXSD.xsd" namespace="http://www.BikeOnTrack.pt/Store"/>
+	<xs:import schemaLocation="saleLineXSD.xsd" namespace="http://www.BikeOnTrack.pt/saleLine"/>
+	<xs:import schemaLocation="customerXSD.xsd" namespace="http://www.BikeOnTrack.pt/Customer"/>
+
+	<xs:element name="sale">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+
+				<xs:element name="saleID" type="xs:positiveInteger"/>
+				<xs:element name="orderDate" type="xs:dateTime"/>
+				<xs:element name="customer" type="cu:customer"/>
+				<xs:element name="currencyRate" type="cr:currencyRate"/>
+				<xs:element name="total" type="xs:double"/>
+				<xs:element name="taxAmt" type="xs:double"/>
+				<xs:element name="store" type="st:store"/>
+				<xs:element name="saleLine" type="sl:saleLine" minOccurs="1" maxOccurs="unbounded"/>		
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

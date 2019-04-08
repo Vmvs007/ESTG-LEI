@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<totalSales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.pt/TotalSales"
+	xsi:schemaLocation="http://www.BikeOnTrack.pt/TotalSales saleXSD.xsd">
+
+	<totalSalesID>1</totalSalesID>
+	<exerciseID>1</exerciseID>
+	<productsAmount>23</productsAmount>
+	<totalSalesAmount>13500.35</totalSalesAmount>
+</totalSales>

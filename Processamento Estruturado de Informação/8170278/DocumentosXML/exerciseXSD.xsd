@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.BikeOnTrack.pt/Exercise"
+	targetNamespace="http://www.BikeOnTrack.pt/Exercise"
+	xmlns:sal ="http://www.BikeOnTrack.pt/sale"
+	elementFormDefault="qualified">
+
+
+	<xs:import schemaLocation="saleXSD.xsd" namespace="http://www.BikeOnTrack.pt/sale"/>
+
+	
+	<xs:complexType name="exercise" mixed="true">
+		<xs:sequence>
+			<xs:element name="startDate" type="xs:date"/>
+			<xs:element name="endDate" type="xs:date"/>
+			<xs:element name="exerciseDate" type="xs:date"/>
+			<xs:element name="totalProducts" type="xs:integer"/>
+			<xs:element name="totalDifProducts" type="xs:integer"/>
+			<xs:element name="totalDifClients" type="xs:integer"/>
+			<xs:element name="valuePerClient">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="client" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="clientID" type="xs:positiveInteger"/>
+									<xs:element name="clientName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+									<xs:element name="value" type="xs:double"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="salesPerProduct" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="productID" type="xs:positiveInteger"/>
+						<xs:element name="productName" type="xs:string"/>
+						<xs:element name="units" type="xs:integer"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="totalValuePerCurrency" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="currencyID" type="xs:positiveInteger"/>
+						<xs:element name="currencyCode" type="xs:string"/>
+						<xs:element name="total" type="xs:double"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="sale" type="sal:sale" minOccurs="1" maxOccurs="unbounded"/> 
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,4 @@
+-storeXSD e storeXML
+-customerXSD e customerXML
+-currencyRateXSD e currencyRateXML
+-productXSD e productXML

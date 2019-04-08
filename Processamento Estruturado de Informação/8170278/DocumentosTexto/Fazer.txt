@@ -1,0 +1,4 @@
+A fazer:
+-Passar o Address que está em loja para o commonTypes
+-Costumer com Store ID? (Enganei-me provavelmente)
+-productType: //Mais tarde um enumeração (bike, bikeEquipment, cyclistEquipment, maintenanceProduct)

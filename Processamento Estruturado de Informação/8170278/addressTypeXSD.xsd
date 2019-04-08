@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.BikeOnTrack.pt/AddressType"
+	targetNamespace="http://www.BikeOnTrack.pt/AddressType"
+	elementFormDefault="unqualified">
+
+	<xs:simpleType name="typeStreet">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="typeDoorNum">
+		<xs:restriction base="xs:integer"/>
+	</xs:simpleType>
+
+	<simpleType name="typePostalCode">
+		<xs:restriction base="xs:integer">
+			<xs:pattern value="([0-9]{4})"/>
+		</xs:restriction>
+	</simpleType>
+
+	<simpleType name="typeCity">
+		<xs:restriction base="xs:string"/>
+	</simpleType>
+
+	<simpleType name="typeDistrict">
+		<xs:restriction base="xs:string"/>
+	</simpleType>
+
+	<simpleType name="typeCountry">
+		<xs:restriction base="xs:string"/>
+	</simpleType>
+
+</xs:schema>

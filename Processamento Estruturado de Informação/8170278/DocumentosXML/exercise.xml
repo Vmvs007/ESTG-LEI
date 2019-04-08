@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.pt/Exercise"
+	xsi:schemaLocation="http://www.BikeOnTrack.pt/Exercise exerciseXSD.xsd"
+	xmlns:cr="http://www.BikeOnTrack.pt/CurrencyRate"
+	xmlns:sl="http://www.BikeOnTrack.pt/saleLine"
+	xmlns:pr="http://www.BikeOnTrack.pt/Product"
+	xmlns:cu="http://www.BikeOnTrack.pt/Customer"
+	xmlns:sal="http://www.BikeOnTrack.pt/sale"
+	>
+
+	<exerciseID>1</exerciseID>
+	<startDate>2011-05-31</startDate>
+	<endDate>2012-05-31</endDate>
+	<exerciseDate>2012-05-31</exerciseDate>
+	<sale>
+		<sal:saleID>1</sal:saleID>
+		<sal:orderDate>2011-05-31</sal:orderDate>
+		<sal:customer>
+			<cu:name>Arminho Miguel de Sá Santos</cu:name>
+			<cu:customerID>1</cu:customerID>
+			<cu:nif>000123456</cu:nif>
+			<cu:address>
+				<cu:street>Rua da Liberdade</cu:street>
+				<cu:doorNum>66</cu:doorNum>
+				<cu:postalCode>4345-001</cu:postalCode>
+				<cu:city>Trofa</cu:city>
+				<cu:district>Porto</cu:district>
+				<cu:country>Portugal</cu:country>
+			</cu:address>
+			<cu:contacts>
+				<cu:phone>911222333</cu:phone>
+				<cu:email>arminho123@mail.com</cu:email>
+			</cu:contacts>
+		</sal:customer>
+		<sal:currencyRate>
+			<cr:currencyRateID>1</cr:currencyRateID>
+			<cr:currencyRateDate>1998-02-25</cr:currencyRateDate>
+			<cr:fromCurrencyCode>USA</cr:fromCurrencyCode>
+			<cr:toCurrencyCode>EUA</cr:toCurrencyCode>
+			<cr:rateVal>0.9</cr:rateVal>
+		</sal:currencyRate>
+		<sal:total>3123</sal:total>
+		<sal:taxAmt>412</sal:taxAmt>
+		<sal:taxAmtPer>13.19</sal:taxAmtPer>
+		<sal:store>
+			<st:name>Famabike - Comércio de Bicicletas, Lda</st:name>
+			<st:storeID>1</st:storeID>
+			<st:nif>505123456</st:nif>
+			<st:address>
+				<st:street>Rua António Ferreira de Matos</st:street>
+				<st:doorNum>9</st:doorNum>
+				<st:postalCode>4760-018</st:postalCode>
+				<st:city>Vila Nova de Famalicão</st:city>
+				<st:district>Porto</st:district>
+				<st:country>Portugal</st:country>
+			</st:address>
+			<st:contacts>
+				<st:phone>913455077</st:phone>
+				<st:email>famabike@famabike.com</st:email>
+			</st:contacts>
+		</sal:store>	
+		<sal:saleLine>
+			<sl:saleLineID>1</sl:saleLineID>
+			<sl:order>2</sl:order>
+			<sl:product>
+				<pr:productID>1</pr:productID>
+				<pr:name>Specialized S-Works Stumpjumper 27.5</pr:name>
+				<pr:productYear>2019</pr:productYear>
+				<pr:price>9148.00</pr:price>
+				<pr:colour>Carbon Black/Satin Blue</pr:colour>
+				<pr:productType>bike</pr:productType>
+			</sl:product>
+			<sl:saleLineTotal>18296</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>2</sl:saleLineID>
+			<sl:order>2</sl:order>
+			<sl:product>
+				<pr:productID>1</pr:productID>
+				<pr:name>Specialized S-Works Stumpjumper 27.5</pr:name>
+				<pr:productYear>2019</pr:productYear>
+				<pr:price>9148.00</pr:price>
+				<pr:colour>Carbon Black/Satin Blue</pr:colour>
+				<pr:productType>bike</pr:productType>
+			</sl:product>
+			<sl:saleLineTotal>18296</sl:saleLineTotal>
+		</sal:saleLine>
+	</sale>
+	<sale>
+		<sal:saleID>2</sal:saleID>
+		<sal:orderDate>2011-06-30</sal:orderDate>
+		<sal:customer>
+			<cu:name>Lara Gonçalves</cu:name>
+			<cu:customerID>2</cu:customerID>
+			<cu:nif>000123457</cu:nif>
+			<cu:address>
+				<cu:street>Rua do Bonjardim</cu:street>
+				<cu:doorNum>12</cu:doorNum>
+				<cu:postalCode>4345-001</cu:postalCode>
+				<cu:city>Porto</cu:city>
+				<cu:district>Porto</cu:district>
+				<cu:country>Portugal</cu:country>
+			</cu:address>
+			<cu:contacts>
+				<cu:phone>911222333</cu:phone>
+				<cu:email>Lara123@mail.com</cu:email>
+			</cu:contacts>
+		</sal:customer>
+		<sal:currencyRate>
+			<cr:currencyRateID>1</cr:currencyRateID>
+			<cr:currencyRateDate>1998-02-25</cr:currencyRateDate>
+			<cr:fromCurrencyCode>USA</cr:fromCurrencyCode>
+			<cr:toCurrencyCode>EUA</cr:toCurrencyCode>
+			<cr:rateVal>0.9</cr:rateVal>
+		</sal:currencyRate>
+		<sal:total>3123</sal:total>
+		<sal:taxAmt>412</sal:taxAmt>
+		<sal:taxAmtPer>13.19</sal:taxAmtPer>
+		<sal:store>
+			<st:name>Famabike - Comércio de Bicicletas, Lda</st:name>
+			<st:storeID>1</st:storeID>
+			<st:nif>505123456</st:nif>
+			<st:address>
+				<st:street>Rua António Ferreira de Matos</st:street>
+				<st:doorNum>9</st:doorNum>
+				<st:postalCode>4760-018</st:postalCode>
+				<st:city>Vila Nova de Famalicão</st:city>
+				<st:district>Porto</st:district>
+				<st:country>Portugal</st:country>
+			</st:address>
+			<st:contacts>
+				<st:phone>913455077</st:phone>
+				<st:email>famabike@famabike.com</st:email>
+			</st:contacts>
+		</sal:store>	
+		<sal:saleLine>
+			<sl:saleLineID>1</sl:saleLineID>
+			<sl:order>2</sl:order>
+			<sl:product>
+				<pr:productID>1</pr:productID>
+				<pr:name>Specialized S-Works Stumpjumper 27.5</pr:name>
+				<pr:productYear>2019</pr:productYear>
+				<pr:price>9148.00</pr:price>
+				<pr:colour>Carbon Black/Satin Blue</pr:colour>
+				<pr:productType>bike</pr:productType>
+			</sl:product>
+			<sl:saleLineTotal>18296</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>2</sl:saleLineID>
+			<sl:order>2</sl:order>
+			<sl:product>
+				<pr:productID>1</pr:productID>
+				<pr:name>Specialized S-Works Stumpjumper 27.5</pr:name>
+				<pr:productYear>2019</pr:productYear>
+				<pr:price>9148.00</pr:price>
+				<pr:colour>Carbon Black/Satin Blue</pr:colour>
+				<pr:productType>bike</pr:productType>
+			</sl:product>
+			<sl:saleLineTotal>18296</sl:saleLineTotal>
+		</sal:saleLine>
+	</sale>
+</exercise>

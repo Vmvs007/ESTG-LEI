@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns="http://www.BikeOnTrack.pt/Store" 
+xsi:schemaLocation="http://www.BikeOnTrack.pt/Store storeXSD.xsd" 
+xmlns:cr="http://www.BikeOnTrack.pt/CurrencyRate" 
+xmlns:sl="http://www.BikeOnTrack.pt/saleLine" 
+xmlns:pr="http://www.BikeOnTrack.pt/Product" 
+xmlns:cu="http://www.BikeOnTrack.pt/Customer" 
+xmlns:sal="http://www.BikeOnTrack.pt/sale" 
+xmlns:ex="http://www.BikeOnTrack.pt/Exercise"> 
+	<storeID>1046</storeID>
+<name>Better Bike Shop</name>
+	<nif>236899244</nif>
+	<address>
+		<street>Rua do povo</street>
+		<doorNum>1</doorNum>
+		<postalCode>4765-555</postalCode>
+		<city>Porto</city>
+		<district>Porto</district>
+		<country>Portugal</country>
+	</address>
+	<contacts>
+		<phone>912365478</phone>
+		<email>betterbikeshop@gmail.com</email>
+	</contacts>
+<totalProducts>1207</totalProducts>
+<totalSales>422706.60229999997</totalSales>
+<avegePrice>409.7442442896936</avegePrice>
+<exercise>
+	<ex:startDate>2011-05-01</ex:startDate>
+	<ex:endDate>2011-05-31</ex:endDate>
+	<ex:exerciseDate>2011-05-31</ex:exerciseDate>
+	<ex:totalProducts>26</ex:totalProducts>
+	<ex:totalDifProducts>12</ex:totalDifProducts>
+	<ex:totalDifClients>1</ex:totalDifClients>
+	<ex:valuePerClient>
+		<ex:client>
+		<ex:clientID>29825</ex:clientID>
+		<ex:clientName>Lara Gonçalves</ex:clientName>
+		<ex:value>20565.6206</ex:value>
+		</ex:client>
+	</ex:valuePerClient>
+	<ex:salesPerProduct>
+		<ex:productID>709</ex:productID>
+		<ex:productName>Mountain Bike Socks. M</ex:productName>
+		<ex:units>6</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>711</ex:productID>
+		<ex:productName>Sport-100 Helmet. Blue</ex:productName>
+		<ex:units>4</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>714</ex:productID>
+		<ex:productName>Long-Sleeve Logo Jersey. M</ex:productName>
+		<ex:units>3</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>777</ex:productID>
+		<ex:productName>Mountain-100 Black. 44</ex:productName>
+		<ex:units>3</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>773</ex:productID>
+		<ex:productName>Mountain-100 Silver. 44</ex:productName>
+		<ex:units>2</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>712</ex:productID>
+		<ex:productName>AWC Logo Cap</ex:productName>
+		<ex:units>2</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>771</ex:productID>
+		<ex:productName>Mountain-100 Silver. 38</ex:productName>
+		<ex:units>1</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>778</ex:productID>
+		<ex:productName>Mountain-100 Black. 48</ex:productName>
+		<ex:units>1</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>772</ex:productID>
+		<ex:productName>Mountain-100 Silver. 42</ex:productName>
+		<ex:units>1</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>716</ex:productID>
+		<ex:productName>Long-Sleeve Logo Jersey. XL</ex:productName>
+		<ex:units>1</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>774</ex:productID>
+		<ex:productName>Mountain-100 Silver. 48</ex:productName>
+		<ex:units>1</ex:units>
+	</ex:salesPerProduct>
+	<ex:salesPerProduct>
+		<ex:productID>776</ex:productID>
+		<ex:productName>Mountain-100 Black. 42</ex:productName>
+		<ex:units>1</ex:units>
+	</ex:salesPerProduct>
+	<ex:totalValuePerCurrency>
+		<ex:currencyID>13503</ex:currencyID>
+		<ex:currencyCode>USD</ex:currencyCode>
+		<ex:total>20565.6206</ex:total>
+	</ex:totalValuePerCurrency>
+	<ex:sale>
+		<sal:saleID>43659</sal:saleID>
+		<sal:orderDate>2011-05-31</sal:orderDate>
+		<sal:customer>
+			<cu:customerID>29825</cu:customerID>
+			<cu:name>Lara Gonçalves</cu:name>
+			<cu:nif>242889549</cu:nif>
+			<cu:address>
+				<cu:street>Rua do Bonjardim</cu:street>
+				<cu:doorNum>12</cu:doorNum>
+				<cu:postalCode>4345-011</cu:postalCode>
+				<cu:city>Porto</cu:city>
+				<cu:district>Porto</cu:district>
+				<cu:country>Portugal</cu:country>
+			</cu:address>
+			<cu:contacts>
+				<cu:phone>912312333</cu:phone>
+				<cu:email>lara123@mail.com</cu:email>
+			</cu:contacts>
+		</sal:customer>
+		<sal:currencyRate>
+		</sal:currencyRate>
+		<sal:total>20565.6206</sal:total>
+		<sal:taxAmt>1971.5149</sal:taxAmt>
+		<sal:totalProducts>26</sal:totalProducts>
+		<sal:totalDifProducts>12</sal:totalDifProducts>
+		<sal:productAveragePrice>1193.64265</sal:productAveragePrice>
+		<sal:saleLine>
+			<sl:saleLineID>1</sl:saleLineID>
+			<sl:order>1</sl:order>
+			<sl:product>
+				<pr:productID>776</pr:productID>
+				<pr:name>Mountain-100 Black. 42</pr:name>
+				<pr:price>2024.994</pr:price>
+				<pr:colour>Black</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>2024.994</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>2</sl:saleLineID>
+			<sl:order>3</sl:order>
+			<sl:product>
+				<pr:productID>777</pr:productID>
+				<pr:name>Mountain-100 Black. 44</pr:name>
+				<pr:price>2024.994</pr:price>
+				<pr:colour>Black</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>6074.982</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>3</sl:saleLineID>
+			<sl:order>1</sl:order>
+			<sl:product>
+				<pr:productID>778</pr:productID>
+				<pr:name>Mountain-100 Black. 48</pr:name>
+				<pr:price>2024.994</pr:price>
+				<pr:colour>Black</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>2024.994</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>5</sl:saleLineID>
+			<sl:order>1</sl:order>
+			<sl:product>
+				<pr:productID>772</pr:productID>
+				<pr:name>Mountain-100 Silver. 42</pr:name>
+				<pr:price>2039.994</pr:price>
+				<pr:colour>Silver</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>2039.994</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>4</sl:saleLineID>
+			<sl:order>1</sl:order>
+			<sl:product>
+				<pr:productID>771</pr:productID>
+				<pr:name>Mountain-100 Silver. 38</pr:name>
+				<pr:price>2039.994</pr:price>
+				<pr:colour>Silver</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>2039.994</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>6</sl:saleLineID>
+			<sl:order>2</sl:order>
+			<sl:product>
+				<pr:productID>773</pr:productID>
+				<pr:name>Mountain-100 Silver. 44</pr:name>
+				<pr:price>2039.994</pr:price>
+				<pr:colour>Silver</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>4079.988</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>9</sl:saleLineID>
+			<sl:order>1</sl:order>
+			<sl:product>
+				<pr:productID>716</pr:productID>
+				<pr:name>Long-Sleeve Logo Jersey. XL</pr:name>
+				<pr:price>28.8404</pr:price>
+				<pr:colour>Multi</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>28.8404</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>11</sl:saleLineID>
+			<sl:order>2</sl:order>
+			<sl:product>
+				<pr:productID>712</pr:productID>
+				<pr:name>AWC Logo Cap</pr:name>
+				<pr:price>5.1865</pr:price>
+				<pr:colour>Multi</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>10.373</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>8</sl:saleLineID>
+			<sl:order>3</sl:order>
+			<sl:product>
+				<pr:productID>714</pr:productID>
+				<pr:name>Long-Sleeve Logo Jersey. M</pr:name>
+				<pr:price>28.8404</pr:price>
+				<pr:colour>Multi</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>86.5212</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>12</sl:saleLineID>
+			<sl:order>4</sl:order>
+			<sl:product>
+				<pr:productID>711</pr:productID>
+				<pr:name>Sport-100 Helmet. Blue</pr:name>
+				<pr:price>20.1865</pr:price>
+				<pr:colour>Blue</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>80.746</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>7</sl:saleLineID>
+			<sl:order>1</sl:order>
+			<sl:product>
+				<pr:productID>774</pr:productID>
+				<pr:name>Mountain-100 Silver. 48</pr:name>
+				<pr:price>2039.994</pr:price>
+				<pr:colour>Silver</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>2039.994</sl:saleLineTotal>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>10</sl:saleLineID>
+			<sl:order>6</sl:order>
+			<sl:product>
+				<pr:productID>709</pr:productID>
+				<pr:name>Mountain Bike Socks. M</pr:name>
+				<pr:price>5.7</pr:price>
+				<pr:colour>White</pr:colour>
+			</sl:product>
+			<sl:saleLineTotal>34.2</sl:saleLineTotal>
+		</sal:saleLine>
+	</ex:sale>
+</exercise>
+</store>

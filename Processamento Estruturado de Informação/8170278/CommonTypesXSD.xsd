@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.BikeOnTrack.pt/CommonTypes"
+	targetNamespace="http://www.BikeOnTrack.pt/CommonTypes"
+	elementFormDefault="unqualified">
+
+
+	<!-- ADICIONAR typeID -->
+
+
+
+	<xs:simpleType name="typeNIF">
+		<xs:restriction base="xs:integer">
+			<xs:pattern value="([0-9]{9})"/>    
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="typePhone">
+		<xs:restriction base="xs:integer">
+			<xs:pattern value="(9[1236][0-9]{7}|2[1-9][0-9]{7})"/>    
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="typeEmail">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[^@]+@[^\.]+\..+"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+
+	<xs:simpleType name="typeZipCode">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{4}-[0-9]{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+
+</xs:schema>

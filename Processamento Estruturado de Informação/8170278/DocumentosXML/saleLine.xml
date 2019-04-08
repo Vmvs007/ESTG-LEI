@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<saleLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.pt/saleLine"
+	xsi:schemaLocation="http://www.BikeOnTrack.pt/saleLine saleLineXSD.xsd"
+	xmlns:pr="http://www.BikeOnTrack.pt/Product">
+
+	<saleLineID>1</saleLineID>
+	<order>2</order>
+	<product>
+		<pr:productID>1</pr:productID>
+		<pr:name>Specialized S-Works Stumpjumper 27.5</pr:name>
+		<pr:productYear>2019</pr:productYear>
+		<pr:price>9148.00</pr:price>
+		<pr:colour>Carbon Black/Satin Blue</pr:colour>
+		<pr:productType>bike</pr:productType>
+	</product>
+	<saleLineTotal>18296</saleLineTotal>
+</saleLine>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.pt/sale"
+	xsi:schemaLocation="http://www.BikeOnTrack.pt/sale saleXSD.xsd"
+	xmlns:cr="http://www.BikeOnTrack.pt/CurrencyRate"
+	xmlns:st="http://www.BikeOnTrack.pt/Store"
+	xmlns:sl="http://www.BikeOnTrack.pt/saleLine"
+	xmlns:pr="http://www.BikeOnTrack.pt/Product"
+	xmlns:cu="http://www.BikeOnTrack.pt/Customer"
+	>
+
+	<saleID>1</saleID>
+	<orderDate>2011-05-31T00:00:00.000</orderDate>
+	<customer>
+		<cu:name>Arminho Miguel de Sá Santos</cu:name>
+		<cu:customerID>1</cu:customerID>
+		<cu:nif>000123456</cu:nif>
+		<cu:address>
+			<cu:street>Rua da Liberdade</cu:street>
+			<cu:doorNum>66</cu:doorNum>
+			<cu:postalCode>4345-001</cu:postalCode>
+			<cu:city>Trofa</cu:city>
+			<cu:district>Porto</cu:district>
+			<cu:country>Portugal</cu:country>
+		</cu:address>
+		<cu:contacts>
+			<cu:phone>911222333</cu:phone>
+			<cu:email>arminho123@mail.com</cu:email>
+		</cu:contacts>
+	</customer>
+	<currencyRate>
+		<cr:currencyRateID>1</cr:currencyRateID>
+		<cr:currencyRateDate>1998-02-25</cr:currencyRateDate>
+		<cr:fromCurrencyCode>USA</cr:fromCurrencyCode>
+		<cr:toCurrencyCode>EUA</cr:toCurrencyCode>
+		<cr:rateVal>0.9</cr:rateVal>
+	</currencyRate>
+	<total>312312</total>
+	<taxAmt>412</taxAmt>
+	<store>
+		<st:name>Famabike - Comércio de Bicicletas, Lda</st:name>
+		<st:storeID>1</st:storeID>
+		<st:nif>505123456</st:nif>
+		<st:address>
+			<st:street>Rua António Ferreira de Matos</st:street>
+			<st:doorNum>9</st:doorNum>
+			<st:postalCode>4760-018</st:postalCode>
+			<st:city>Vila Nova de Famalicão</st:city>
+			<st:district>Porto</st:district>
+			<st:country>Portugal</st:country>
+		</st:address>
+		<st:contacts>
+			<st:phone>913455077</st:phone>
+			<st:email>famabike@famabike.com</st:email>
+		</st:contacts>
+	</store>	
+	<saleLine>
+		<sl:saleLineID>1</sl:saleLineID>
+		<sl:order>2</sl:order>
+		<sl:product>
+			<pr:productID>1</pr:productID>
+			<pr:name>Specialized S-Works Stumpjumper 27.5</pr:name>
+			<pr:productYear>2019</pr:productYear>
+			<pr:price>9148.00</pr:price>
+			<pr:colour>Carbon Black/Satin Blue</pr:colour>
+			<pr:productType>bike</pr:productType>
+		</sl:product>
+		<sl:saleLineTotal>18296</sl:saleLineTotal>
+	</saleLine>
+	<saleLine>
+		<sl:saleLineID>2</sl:saleLineID>
+		<sl:order>2</sl:order>
+		<sl:product>
+			<pr:productID>1</pr:productID>
+			<pr:name>Specialized S-Works Stumpjumper 27.5</pr:name>
+			<pr:productYear>2019</pr:productYear>
+			<pr:price>9148.00</pr:price>
+			<pr:colour>Carbon Black/Satin Blue</pr:colour>
+			<pr:productType>bike</pr:productType>
+		</sl:product>
+		<sl:saleLineTotal>18296</sl:saleLineTotal>
+	</saleLine>
+</sale>

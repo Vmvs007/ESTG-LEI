@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.BikeOnTrack.pt/Store"
+	targetNamespace="http://www.BikeOnTrack.pt/Store"
+	xmlns:c="http://www.BikeOnTrack.pt/CommonTypes"
+	elementFormDefault="qualified">
+	
+	<xs:import schemaLocation="CommonTypesXSD.xsd" namespace="http://www.BikeOnTrack.pt/CommonTypes"/>
+	<xs:element name="store">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string"/>
+				<xs:element name="storeID" type="xs:positiveInteger"/>
+				<xs:element name="nif" type="c:typeNIF"/>
+				<xs:element name="address">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="street" type="xs:string"/>
+							<xs:element name="doorNum" type="xs:integer"/>
+							<xs:element name="postalCode" type="c:typeZipCode"/>
+							<xs:element name="city" type="xs:string"/>
+							<xs:element name="district" type="xs:string"/>
+							<xs:element name="country" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="contacts">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="phone" type="c:typePhone"/>
+							<xs:element name="email" type="c:typeEmail"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="totalProducts" type="xs:integer"/>
+				<xs:element name="totalSales" type="xs:integer"/>
+				<xs:element name="avegePrice" type="xs:double"/>
+				<xs:element name="exercise" type="ex:exercise" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

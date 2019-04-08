@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.pt/Customer"
+	xsi:schemaLocation="http://www.BikeOnTrack.pt/Customer customerXSD.xsd"
+	xmlns:c="http://www.BikeOnTrack.pt/CommonTypes CommonTypesXSD.xsd">
+
+	<name>Arminho Miguel de Sá Santos</name>
+	<customerID>1</customerID>
+	<nif>000123456</nif>
+	<address>
+		<street>Rua da Liberdade</street>
+		<doorNum>66</doorNum>
+		<postalCode>4345-001</postalCode>
+		<city>Trofa</city>
+		<district>Porto</district>
+		<country>Portugal</country>
+	</address>
+	<contacts>
+		<phone>911222333</phone>
+		<email>arminho123@mail.com</email>
+	</contacts>
+</customer>

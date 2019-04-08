@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.BikeOnTrack.pt/CurrencyRate"
+	targetNamespace="http://www.BikeOnTrack.pt/CurrencyRate"
+	xmlns:c ="http://www.BikeOnTrack.pt/CommonTypes"
+	elementFormDefault="qualified">
+
+	<xs:complexType  name="currencyRate">
+		<xs:sequence>
+			<xs:element name="currencyRateID" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="currencyRateDate" type="xs:date" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="fromCurrencyCode" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z][A-Z][A-Z]"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="toCurrencyCode" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Z][A-Z][A-Z]"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>			
+			<xs:element name="rateVal" type="xs:double" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

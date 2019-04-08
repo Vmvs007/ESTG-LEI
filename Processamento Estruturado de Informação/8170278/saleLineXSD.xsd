@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.BikeOnTrack.pt/saleLine"
+	targetNamespace="http://www.BikeOnTrack.pt/saleLine"
+	xmlns:pr="http://www.BikeOnTrack.pt/Product"
+	elementFormDefault="qualified">
+
+	<xs:import schemaLocation="productXSD.xsd" namespace="http://www.BikeOnTrack.pt/Product"/>
+
+	
+	<xs:complexType name="saleLine" mixed="true">
+		<xs:sequence>
+			<xs:element name="saleLineID" type="xs:positiveInteger"/>
+			<xs:element name="order" type="xs:positiveInteger"/>
+			<xs:element name="product" type="pr:product"/>
+			<xs:element name="saleLineTotal" type="xs:double"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

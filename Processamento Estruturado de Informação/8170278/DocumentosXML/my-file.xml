@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.pt/Store" 
+	xsi:schemaLocation="http://www.BikeOnTrack.pt/Store storeXSD.xsd" 
+	xmlns:cr="http://www.BikeOnTrack.pt/CurrencyRate" 
+	xmlns:sl="http://www.BikeOnTrack.pt/saleLine" 
+	xmlns:pr="http://www.BikeOnTrack.pt/Product" 
+	xmlns:cu="http://www.BikeOnTrack.pt/Customer" 
+	xmlns:sal="http://www.BikeOnTrack.pt/sale" 
+	xmlns:ex="http://www.BikeOnTrack.pt/Exercise"> 
+	<storeID>722</storeID>
+	<name>Pedals Warehouse</name>
+	<totalProducts>14</totalProducts>
+	<totalSales>2845.7808999999997</totalSales>
+	<avegePrice>319.2771125</avegePrice>
+	<exercise>
+		<ex:startDate>2011-05-01</ex:startDate>
+		<ex:endDate>2011-05-31</ex:endDate>
+		<ex:exerciseDate>2011-05-31</ex:exerciseDate>
+		<totalProducts>2</totalProducts>
+		<totalDifProducts>2</totalDifProducts>
+		<totalDifClients>1</totalDifClients>
+		<ex:valuePerClient>
+			<ex:client>
+				<ex:clientID>29672</ex:clientID>
+				<ex:value>1294.2529</ex:value>
+			</ex:client>
+		</ex:valuePerClient>
+		<ex:salesPerProduct>
+			<ex:productID>762</ex:productID>
+			<ex:productName>Road-650 Red. 44</ex:productName>
+			<ex:units>1</ex:units>
+		</ex:salesPerProduct>
+		<ex:salesPerProduct>
+			<ex:productID>758</ex:productID>
+			<ex:productName>Road-450 Red. 52</ex:productName>
+			<ex:units>1</ex:units>
+		</ex:salesPerProduct>
+		<ex:sale>
+			<sal:saleID>43660</sal:saleID>
+			<sal:orderDate>2011-05-31 00:00:00.000</sal:orderDate>
+			<sal:customer>			<cu:customerID>29672</cu:customerID>
+		</sal:customer>
+		<sal:currencyRate>
+		</sal:currencyRate>
+		<sal:total>1294.2529</sal:total>
+		<sal:taxAmt>124.2483</sal:taxAmt>
+		<sal:totalProducts>2</sal:totalProducts>
+		<sal:totalDifProducts>2</sal:totalDifProducts>
+		<sal:productAveragePrice>647.12645</sal:productAveragePrice>
+		<sal:saleLine>
+			<sl:saleLineID>14</sl:saleLineID>
+			<sl:order>1</sl:order>
+			<sl:product>
+				<pr:productID>758</pr:productID>
+				<pr:name>Road-450 Red. 52</pr:name>
+				<pr:price>874.794</pr:price>
+				<pr:colour>Red</pr:colour>
+			</sl:product>
+		</sal:saleLine>
+		<sal:saleLine>
+			<sl:saleLineID>13</sl:saleLineID>
+			<sl:order>1</sl:order>
+			<sl:product>
+				<pr:productID>762</pr:productID>
+				<pr:name>Road-650 Red. 44</pr:name>
+				<pr:price>419.4589</pr:price>
+				<pr:colour>Red</pr:colour>
+			</sl:product>
+		</sal:saleLine>
+	</ex:sale>
+</exercise>
+</store>

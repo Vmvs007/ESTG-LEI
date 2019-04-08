@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.pt/Store"
+	xsi:schemaLocation="http://www.BikeOnTrack.pt/Store storeXSD.xsd">
+
+	<name>Famabike - Comércio de Bicicletas, Lda</name>
+	<storeID>00001</storeID>
+	<nif>505123456</nif>
+	<address>
+		<street>Rua António Ferreira de Matos</street>
+		<doorNum>9</doorNum>
+		<postalCode>4760-018</postalCode>
+		<city>Vila Nova de Famalicão</city>
+		<district>Porto</district>
+		<country>Portugal</country>
+	</address>
+	<contacts>
+		<phone>913455077</phone>
+		<email>famabike@famabike.com</email>
+	</contacts>
+</store>

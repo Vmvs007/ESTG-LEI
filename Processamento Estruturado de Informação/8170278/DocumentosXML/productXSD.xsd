@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.BikeOnTrack.pt/Product"
+	targetNamespace="http://www.BikeOnTrack.pt/Product"
+	elementFormDefault="qualified">
+
+		<xs:complexType name="product" mixed="true">
+			<xs:sequence>
+				<xs:element name="productID" type="xs:positiveInteger"/>
+				<xs:element name="name" type="xs:string"/>
+				<xs:element name="price" type="xs:double"/>
+				<xs:element name="colour" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+</xs:schema>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.BikeOnTrack.pt/Exercise"
+	targetNamespace="http://www.BikeOnTrack.pt/Exercise"
+	xmlns:sal ="http://www.BikeOnTrack.pt/sale"
+	elementFormDefault="qualified">
+
+
+
+	<xs:import schemaLocation="saleXSD.xsd" namespace="http://www.BikeOnTrack.pt/sale"/>
+
+	<xs:element name="Exercise">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element name="exerciseID" type="xs:positiveInteger"/>
+				<xs:element name="startDate" type="xs:dateTime"/>
+				<xs:element name="endDate" type="xs:dateTime"/>
+				<xs:element name="exerciseDate" type="xs:dateTime"/>
+				<xs:element name="sale" type="sal:sale" minOccurs="1" maxOccurs="unbouded"/> 
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
