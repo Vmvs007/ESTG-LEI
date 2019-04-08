@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Weather Web App Interface</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+	id="bootstrap-css">
+	<!-- Icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
+	
+	<link rel="stylesheet" type="text/css" href="/static/ex3CSS.css">    
+</head>
+
+<body>
+
+	<div class=" container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="weahterform">
+					<h1>Search weather</h1>
+					<label for="paw-form-lat">Latitude</label>
+					<input id="paw-form-lat" type="text" class="form-control paw-form-element">
+					<label for="paw-form-lon">Longitude</label>
+					<input id="paw-form-lon" type="text" class="form-control paw-form-element">
+					<button id="paw-form-searchWeather" class="btn btn-success paw-form-element"
+					onclick="searchWeather()">Search</button>
+					<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-
+					fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+					crossorigin="anonymous">
+				</div>
+				<hr>
+				<div id="paw-results-row" class="col-md-12">
+					<div class="weahterform">
+						<h1>Weather Results</h1>
+						<p id="Results"></p>
+						<img id="imgR"/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+
+
+		<!-- user javascript -->
+		
+		<script src="/static/ex3JS.js"></script>
+	</body>
+
+	</html>

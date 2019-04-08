@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.header { 
+  grid-area: header;
+
+  background-color: yellow;
+  border:3px solid red;
+     }
+
+.menu { 
+  grid-area: menu;
+  border:3px solid red;
+   }
+
+.main { 
+  grid-area: main; 
+  border:3px solid red;
+  }
+
+.right { 
+  grid-area: right;
+  border:3px solid red;
+   }
+
+.footer { 
+  grid-area: footer; 
+  border:3px solid red;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: yellow;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+</style>
+
+<title>Chouras</title>
+
+</head>
+
+<body>
+
+<div class="grid-container">
+
+  <div class="header">
+  <p class="centered">Chouriças Artesanais</p>
+  </div>
+
+  <div class="menu">  
+  <a href="file:///C:/Users/vmvs0/Documents/PAW/Chouriças Artesanais/ChouricasArtesanais_PaginaInicial.html">Página Inicial</a><br>
+  <a href="file:///C:/Users/vmvs0/Documents/PAW/Chouriças Artesanais/ChouricasArtesanais_Produtos.html">Produtos</a><br>
+  <a href="file:///C:/Users/vmvs0/Documents/PAW/Chouriças Artesanais/ChouricasArtesanais_SobreNos.html">Sobre Nós</a><br>
+  <a href="file:///C:/Users/vmvs0/Documents/PAW/Chouriças Artesanais/ChouricasArtesanais_Contactos.html">Contactos</a><br>
+  </div>
+
+  <div class="main">
+    Main
+  </div>
+
+  <div class="footer">
+  Footer
+  </div>
+
+</div>
+
+</body>
+</html>

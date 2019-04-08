@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather Web App Interface</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+        id="bootstrap-css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        .weahterform {
+            background-color: #FFF;
+            padding: 20px 20px 10px 20px;
+            margin-top: 30px;
+        }
+
+        .weahterform h1 {
+            margin: 0;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-control {
+            border-radius: 0;
+        }
+
+        #paw-results-row {
+            display: none;
+        }
+
+        .paw-form-element {
+            margin-top: 10px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+    <div class=" container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="weahterform">
+                <h1>Search weather</h1>
+                <label for="paw-form-lat">Latitude</label>
+                <input id="paw-form-lat" type="text" class="form-control paw-form-element" placeholder="41.1579">
+                <label for="paw-form-lon">Longitude</label>
+                <input id="paw-form-lon" type="text" class="form-control paw-form-element" placeholder="-8.6291">
+                <button id="paw-form-searchWeather" class="btn btn-success paw-form-element"
+                    onclick="searchWeather()">Search</button>
+            </div>
+            <hr>
+            <div id="paw-results-row" class="col-md-12">
+                <div class="weahterform">
+                    <h1>Weather Results</h1>
+                    <p id="Results"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- user javascript -->
+    <script>
+        const openweathermaps_key = "YOUR_KEY_HERE"
+
+        function searchWeather(lat, long) {
+            var lat = document.getElementById('paw-form-lat').value;
+            var lon = document.getElementById('paw-form-lon').value;
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var weatherObject = JSON.parse(xhttp.response);
+                    var currentWeather = weatherObject["weather"][0]["description"];
+                    document.getElementById("paw-results-row").style.display = "block";
+                    document.getElementById("Results").innerHTML = currentWeather;
+                }
+            }
+
+            xhttp.open("GET", `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=${openweathermaps_key}`, true);
+            xhttp.setRequestHeader('Accept', 'application/json');
+            xhttp.send();
+        }
+    </script>
+
+    </body>
+
+</html>
